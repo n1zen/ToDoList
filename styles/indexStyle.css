@@ -13,7 +13,7 @@ header {
 
 #titleCard {
     background-color: #fffff1;
-    width: 35%;
+    width: 250px;
     height: 50px;
     margin: auto;
     border-radius: 10px;
@@ -24,3 +24,81 @@ header {
     margin-top: 1px;
     font-size: 10px;
 }
+
+#mainContainer {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    background-color: wheat;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: Kanit;
+    border: none;
+    border-radius: 5px;
+}
+
+#taskCounter {
+    background-color: #fffff1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0.75px 0.75px 1px;
+}
+
+#addTaskBtn {
+    background-color: #32CD32;
+    color: white;
+    box-shadow: black 0.75px 0.75px 1px;
+}
+
+#deleteTaskBtn {
+    background-color: #FF0000;
+    color: white;
+    box-shadow: black 0.75px 0.75px 1px;
+    margin: auto;
+    height: 33px;
+    width: 33px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffff1;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: 0.75px 0.75px 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.task {
+    width: 80%;
+    font-size: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
