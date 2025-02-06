@@ -4,20 +4,27 @@ body {
     background-color: whitesmoke;
     padding: 0;
     margin: 0;
-    font-family: Kanit;
+    font-family: Verdana;
 }
 
 header {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 #titleCard {
     background-color: #fffff1;
-    width: 250px;
+    width: 275px;
     height: 50px;
-    margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #subtitle {
