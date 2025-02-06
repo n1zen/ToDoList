@@ -46,6 +46,7 @@ button {
     font-family: Kanit;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #taskCounter {
@@ -101,4 +102,3 @@ li {
     padding-left: 15px;
     padding-right: 15px;
 }
-
