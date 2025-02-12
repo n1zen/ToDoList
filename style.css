@@ -95,6 +95,7 @@ li {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #fffff1;
     padding-left: 15px;
     padding-right: 15px;
