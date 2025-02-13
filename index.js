@@ -109,7 +109,8 @@ function displayTasks() {
 }
 
 function countTasks() {
-    let count = tasks.length;
+    const incompleteTasks = tasks.filter(t => !t.isCompleted);
+    const tasksLeft = incompleteTasks.length;
     const taskCounter = document.getElementById('taskCounter');
-    taskCounter.innerHTML = `Amount of tasks: ${count}`;
+    taskCounter.innerHTML = `Amount of tasks left: ${tasksLeft}`;
 }
