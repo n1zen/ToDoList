@@ -42,6 +42,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 #formContainer {
@@ -81,6 +82,14 @@ button {
     width: 33px;
 }
 
+#editTaskBtn {
+    background-color: #0e9ef1;
+    color: white;
+    box-shadow: black 0.75px 0.75px 1px;
+    height: 33px;
+    width: 33px;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -106,7 +115,52 @@ li {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-li label {
+
+.taskContent input[type="text"]{
+    background-color: #fffff1;
+    border: 0;
+    font-family: Kanit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.content label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.taskItem.completed .taskContent input {
+    text-decoration: line-through;
+    color: #888;
+}
+/* li label {
     width: 80%;
     font-size: 11px;
     padding-top: 3px;
@@ -114,4 +168,4 @@ li label {
     padding-left: 7px;
     padding-right: 7px;
     margin: 0;
-}
+} */
